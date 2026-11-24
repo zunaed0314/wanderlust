@@ -1,0 +1,85 @@
+﻿+-- public
+|   +-- assets
+|   |   +-- destinations
+|   |   |   +-- image1.png
+|   |   |   +-- image2.png
+|   |   |   +-- image3.png
+|   |   |   +-- image4.png
+|   |   |   +-- image5.png
+|   |   |   +-- image6.png
+|   |   +-- Banner.png
+|   |   +-- CTA.png
+|   |   +-- Headset.png
+|   |   +-- MapTrifold.png
+|   |   +-- person1.png
+|   |   +-- person2.png
+|   |   +-- ShieldCheck.png
+|   |   +-- Wanderlast.png
+|   |   +-- Wanderlast-1.png
+|   +-- file.svg
+|   +-- globe.svg
+|   +-- next.svg
+|   +-- vercel.svg
+|   +-- window.svg
++-- src
+|   +-- app
+|   |   +-- add-destination
+|   |   |   +-- page.jsx
+|   |   +-- api
+|   |   |   +-- auth
+|   |   |   |   +-- [...all]
+|   |   |   |   |   +-- route.js
+|   |   +-- components
+|   |   |   +-- Banner
+|   |   |   |   +-- LocationAutocomplete.jsx
+|   |   |   +-- Navbar
+|   |   |   |   +-- MobileMenu.jsx
+|   |   |   |   +-- Navbar.jsx
+|   |   |   |   +-- NavLinks.jsx
+|   |   |   |   +-- UserMenu.jsx
+|   |   |   +-- profile
+|   |   |   |   +-- ProfileDetails.jsx
+|   |   |   |   +-- ProfileForm.jsx
+|   |   |   |   +-- ProfileHeader.jsx
+|   |   |   +-- AddDestinationForm.jsx
+|   |   |   +-- Banner.jsx
+|   |   |   +-- BookingCancel.jsx
+|   |   |   +-- BookingCard.jsx
+|   |   |   +-- BookingCardUsingServer.jsx
+|   |   |   +-- DeleteButtonAction.jsx
+|   |   |   +-- DestCard.jsx
+|   |   |   +-- DestinationsContent.jsx
+|   |   |   +-- EditDest.jsx
+|   |   |   +-- Footer.jsx
+|   |   |   +-- MyBookingCard.jsx
+|   |   |   +-- Navbar.jsx
+|   |   +-- destinations
+|   |   |   +-- [id]
+|   |   |   |   +-- page.jsx
+|   |   |   +-- page.jsx
+|   |   +-- lib
+|   |   |   +-- actions.js
+|   |   +-- login
+|   |   |   +-- page.jsx
+|   |   +-- mybookings
+|   |   |   +-- page.jsx
+|   |   +-- profile
+|   |   |   +-- page.jsx
+|   |   +-- signup
+|   |   |   +-- page.jsx
+|   |   +-- favicon.ico
+|   |   +-- globals.css
+|   |   +-- layout.js
+|   |   +-- page.js
+|   +-- lib
+|   |   +-- auth.js
+|   |   +-- auth-client.js
+|   +-- proxy.js
++-- .gitignore
++-- AGENTS.md
++-- eslint.config.mjs
++-- jsconfig.json
++-- next.config.mjs
++-- package.json
++-- package-lock.json
++-- README.md
