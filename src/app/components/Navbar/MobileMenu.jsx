@@ -40,24 +40,21 @@ const MobileMenu = ({
               />
             ) : (
               <div className="flex gap-3 pt-2">
-                <Button
-                  as={Link}
+                <Link
                   href="/login"
-                  variant="bordered"
-                  onPress={onClose}
-                  className="flex-1 rounded-xl"
+                  onClick={onClose}
+                  className="flex-1 rounded-xl border border-gray-200 px-4 py-2 text-center text-sm font-semibold text-gray-700 transition hover:bg-gray-100"
                 >
                   Login
-                </Button>
+                </Link>
 
-                <Button
-                  as={Link}
+                <Link
                   href="/signup"
-                  onPress={onClose}
-                  className="flex-1 rounded-xl bg-cyan-600 font-semibold text-white"
+                  onClick={onClose}
+                  className="flex-1 rounded-xl bg-cyan-600 px-4 py-2 text-center text-sm font-semibold text-white transition hover:bg-cyan-700"
                 >
                   Sign Up
-                </Button>
+                </Link>
               </div>
             )}
           </div>
